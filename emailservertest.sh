@@ -60,6 +60,7 @@ if grep -q "Connection refused" "$LOG_FILE"; then
     echo "   - Use 'telnet $MAIL_SERVER 25' manually to confirm."
 elif grep -q "554" "$LOG_FILE"; then
     echo "❌ Mail rejected (554 error). Possible reasons:"
+    echo "   - 5.5.1 Error: no valid recipients (email address does not exist."
     echo "   - Mail server is rejecting unauthenticated senders."
     echo "   - The mail server is blacklisting your IP."
     echo "   - Check SPF, DKIM, and DMARC settings."
