@@ -1,18 +1,18 @@
 #!/bin/bash
 
-**************************************************
-*                                                *
-*    8Dweb LLC                                   *
-*    Email Test Script - mjs                     *
-*    Last Update: 03-05-2025                     *
-*    You will be prompted to enter:              *
-*      - mail server, mail recipient, sender     *
-*    Script will then connect via telnet and     *
-*    send. There are sleep commands. Afterwards  *
-*    The script checks a local log file for      *
-*    Errors and outputs findings                 *
-*                                                *
-**************************************************
+# **************************************************
+# *                                                *
+# *    8Dweb LLC                                   *
+# *    Email Test Script - mjs                     *
+# *    Last Update: 03-05-2025                     *
+# *    You will be prompted to enter:              *
+# *      - mail server, mail recipient, sender     *
+# *    Script will then connect via telnet and     *
+# *    send. There are sleep commands. Afterwards  *
+# *    The script checks a local log file for      *
+# *    Errors and outputs findings                 *
+# *                                                *
+# **************************************************
 
 # Prompt for user input
 read -p "Enter Mail Server (IP or hostname): " MAIL_SERVER
