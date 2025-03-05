@@ -44,7 +44,7 @@ echo "====== SMTP TEST $(date) ======" > "$LOG_FILE"
     echo "DATA"
     sleep 1
     echo "Subject: Test Email"
-    echo "This is a test email sent via Telnet."
+    echo "This is a **TEST** email sent by 8Dweb Support via Telnet."
     echo "."
     sleep 1
     echo "QUIT"
